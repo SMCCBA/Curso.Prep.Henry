@@ -71,11 +71,11 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  if(str1.lenght === str2.lenght){
+  if (str1.lenght === str2.lenght){
     return true;
-  }else{
-    return false;
-  }
+    }else {
+      return false;
+    }
 }
 
 function menosQueNoventa(num) {
@@ -183,7 +183,6 @@ function agregarSimboloExclamacion(str) {
   // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
   // Ejemplo: "hello world" pasaría a ser "hello world!"
   // Tu código:
-
   return str + "!";
 }
 
@@ -191,7 +190,7 @@ function combinarNombres(nombre, apellido) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
- var nomCompleto = nombre + apellido;
+ var nomCompleto = nombre + " " + apellido;
  return nomCompleto; 
 }
 
@@ -228,7 +227,7 @@ function deEuroAdolar(euro){
   //Supongamos que 1 euro equivale a 1.20 dólares. Escribe un programa que reciba
   //como parámetro un número de euros y calcule el cambio en dólares.
   //Escribe tu código aquí
-  return euro * 1,20;
+  return euro * 1.2;
 }
 
 
@@ -241,7 +240,7 @@ function esVocal(letra){
   if (letra.lenght > 1){
     return "Dato incorrecto";
   }
-  if (letra === a || letra === e || letra === i || letra === o || letra === u){
+  if (letra === "a" || letra === "e" || letra === "i" || letra === "o" || letra === "u"){
     return "Es vocal";
   }else{
     return "Dato incorrecto";
