@@ -1,0 +1,9 @@
+Variable: una variable es un valor que vamos a guardar con un nombre para usarlo luego.
+
+String: es un tipo de variable en la cual vamos a guardar texto, que siempre debe ir encerrado entre comillas simples '' o dobles "".
+
+Función: una función va a realizar una serie acciones y nos va a devolver un valor, puede o no tener argumentos. Los argumentos son datos que le vamos a dar a una función para que realice operaciones especificas. El return nos va a devolver el valor que querramos a traves de la función, una vez que se ejecuta, finaliza la función.
+
+El if es un tipo de operación que chequea que una determinada condición se cumpla, en caso de cumplirse realiza una acción y en el caso contrario otra.
+
+Los valores booleanos true y false vamos a usarlos cuando cierta condición sea verdadera o falsa, para indicar que se ha cumplido o no cierta condición.
